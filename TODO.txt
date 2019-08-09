@@ -1,0 +1,7 @@
+TODO
+1. TODO filter out anchor tags in paths
+E.G. /dogs#german-shepherd and /dogs should be treated the same, but
+currently they are treated as different paths
+
+2. Parse links with absolute paths to the same domain
+Currently only relative paths are parsed
