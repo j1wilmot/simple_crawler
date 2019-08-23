@@ -4,7 +4,7 @@ require 'faraday'
 # Follow all relative paths on pages in a domain
 # This is single threaded so it isn't particularly fast and won't DDOS sites
 # Should check sites' robot.txt before using to ensure sites allow crawling
-module SimpleCrawler
+module Toddler
   class Crawler
     attr_reader :visited_paths, :queued_paths, :paths_to_pages
     attr_accessor :debug
@@ -62,7 +62,7 @@ module SimpleCrawler
     def queue_up_paths(paths)
       paths.
         select {|path| !path_visited?(path) }.
-        each {|path| add_path_to_queue path }
+        each {|path| add_path_to_queue(path) }
     end
 
     def next_path!

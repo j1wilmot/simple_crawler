@@ -1,4 +1,4 @@
-# SimpleCrawler
+# Toddler
 
 A simple page crawler that can incrementally crawl through pages on a domain by
 following links with relative paths.
@@ -8,7 +8,7 @@ following links with relative paths.
 Instantiate a new instance:
 ```ruby
 domain = 'http://www.example.com'
-crawler = SimpleCrawler.new(domain)
+crawler = Toddler.new(domain)
 ```
 
 To incrementally crawl:

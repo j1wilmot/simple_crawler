@@ -1,4 +1,4 @@
-module SimpleCrawler
+module Toddler
   class VisitData
     attr_reader :path, :linked_paths, :document
     def initialize(path, linked_paths, document)

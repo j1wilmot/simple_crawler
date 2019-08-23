@@ -1,13 +1,13 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "simple_crawler/version"
+require "toddler/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "simple_crawler"
-  spec.version       = SimpleCrawler::VERSION
+  spec.name          = "Toddler"
+  spec.version       = Toddler::VERSION
   spec.authors       = ["Jeremy Wilmot"]
-  spec.email         = ["jsw@punchbowl.com"]
+  spec.email         = ["j1wilmot@gmail.com"]
 
   spec.summary       = %q{Simple web crawler.}
   spec.description   = %q{Crawl a domain by following all relative paths}

@@ -2,7 +2,7 @@ require "test_helper"
 
 class SimpleCrawlerTest < Minitest::Test
   def setup
-    @crawler = SimpleCrawler::Crawler.new('http://www.example.com')
+    @crawler = Toddler.new('http://www.example.com')
   end
 
   def test_crawler_finds_links
