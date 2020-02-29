@@ -17,7 +17,7 @@ GEM
     minitest (5.11.3)
     multipart-post (2.0.0)
     public_suffix (3.1.1)
-    rake (10.5.0)
+    rake (13.0.1)
     safe_yaml (1.0.5)
     webmock (3.6.2)
       addressable (>= 2.3.6)
@@ -31,7 +31,7 @@ DEPENDENCIES
   Toddler!
   bundler (~> 1.17)
   minitest (~> 5.0)
-  rake (~> 10.0)
+  rake (~> 13.0)
   webmock (~> 3.6)
 
 BUNDLED WITH
